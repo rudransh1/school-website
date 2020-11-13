@@ -1,3 +1,5 @@
+
+ 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>IIIC &mdash; INFO COMMUNICATION INCUBATION CENTER</title>
+	<title>School Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -124,19 +126,8 @@
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
-					<li><a href="#" id="why"><span>Why IIIC?<span></a></li>
-					<li><a href="#" id="events"><span>Events</span></a></li>
-					<li><a href="#" id="apply"><span>Apply</span></a></li>
-					<li><a href="#" id="gap" ><span>Got A Problem</span></a></li>		            
-					<li><a href="#" id="pdc" ><span>Product Dev</span></a></li>
-				
-					<li class="drop"><a href="#">Team</a>
-						<ul class="dropdown">
-							<li><a href="#" id="fcteam">Official Team</a></li>
-							<li><a href="#" id="stdteam">Student Team</a></li>
-						</ul>
-					</li>
-					<li><a href="#" id="asc" ><span>Associations</span></a></li>
+					<li><a href="#" id="why"><span>About<span></a></li>
+					<li><a href="#" id="login"><span>Login</span></a></li>
 					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -179,36 +170,18 @@ $(".drop")
 });
 </script>
 	<script>
-		document.getElementById("events").onclick = function () {
-    location.href = "events.php";
-};
-document.getElementById("why").onclick = function () {
-    location.href = "why.php";
-};
-document.getElementById("apply").onclick = function () {
-    location.href = "apply.php";
-};
-document.getElementById("home").onclick = function () {
-    location.href = "index.php";
-};
-document.getElementById("gap").onclick = function () {
-    location.href = "gotaproblem.php";
-};
-document.getElementById("contact").onclick = function () {
-    location.href = "index.php#cntct";
-};
-document.getElementById("pdc").onclick = function () {
-    location.href = "pdc.php";
-};
-document.getElementById("fcteam").onclick = function () {
-location.href = "officialTeam.php";
-};
-document.getElementById("stdteam").onclick = function () {
-location.href = "coreTeam.php";
-};
-document.getElementById("asc").onclick = function () {
-location.href = "associates.php";
-};
+	document.getElementById("why").onclick = function () {
+	    location.href = "why.php";
+	};
+	document.getElementById("home").onclick = function () {
+	    location.href = "index.php";
+	};
+	document.getElementById("login").onclick = function () {
+	    location.href = "login.php";
+	};
+	document.getElementById("contact").onclick = function () {
+	    location.href = "index.php#cntct";
+	};
 
 
 </script>

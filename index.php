@@ -27,7 +27,9 @@
 				<div class="text-inner">
 					<div class="row">
 						<div id="imgfinal" class="col-md-8 col-md-offset-2">
-								<img src="images/white_iiic.png" class="main-logo to-animate">
+		
+		<h1 class="main-logo to-animate">School Website</h1>
+								
 						</div>
 					</div>
 				</div>
