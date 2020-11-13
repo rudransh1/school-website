@@ -127,7 +127,13 @@
 		          <ul class="nav navbar-nav navbar-right">
 		            <li class="active"><a href="#" id="home" data-nav-section="home"><span>Home</span></a></li>
 					<li><a href="#" id="why"><span>About<span></a></li>
-					<li><a href="#" id="login"><span>Login</span></a></li>
+					<li class="drop"><a href="#">Login</a>
+						<ul class="dropdown">
+							<li><a href="" id="login">Student</a></li>
+							<li><a href="" >Teacher</a></li>
+							<li><a href="" id="admin">Admin</a></li>
+						</ul>
+					</li>
 					<li><a href="#" id="contact" data-nav-section="contact"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -178,6 +184,9 @@ $(".drop")
 	};
 	document.getElementById("login").onclick = function () {
 	    location.href = "login.php";
+	};
+	document.getElementById("admin").onclick = function () {
+	    location.href = "admin/index.php";
 	};
 	document.getElementById("contact").onclick = function () {
 	    location.href = "index.php#cntct";
